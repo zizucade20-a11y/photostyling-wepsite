@@ -242,3 +242,68 @@ ection-wrap {
   text-align: center;
   padding: 70px 20px;
 }
+.quote-band .eyebrow { color: #8a6d4c; }
+.quote-band blockquote {
+  margin: 1.7rem 0 0;
+  font: 500 clamp(2.3rem, 5.2vw, 5rem)/1.12 var(--serif);
+  letter-spacing: -.04em;
+}
+.quote-mark {
+  position: absolute;
+  right: 9%;
+  bottom: -70px;
+  color: rgba(140,103,65,.1);
+  font-size: 16rem;
+}
+.closing {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+.closing h2 { margin-top: 1.2rem; }
+.site-footer {
+  min-height: 90px;
+  padding: 24px 5.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+.site-footer p, .site-footer > span {
+  color: var(--muted);
+  font-size: .62rem;
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    height: 70px;
+    padding: 0 6vw;
+  }
+   }
+  nav { display: none; }
+  .hero {
+    min-height: 620px;
+    height: 82vh;
+    max-height: 780px;
+  }
+  .hero-image { object-position: 57% center; }
+  .hero-content {
+    left: 7vw;
+    right: 7vw;
+  }
+  .hero h1 { font-size: clamp(4.1rem, 15vw, 6rem); }
+  .section-wrap {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+  .intro {
+    padding-top: 95px;
+    padding-bottom: 85px;
+  }
+  .intro-copy {
+    display: block;
+    margin-top: 1.5rem;
+  }
