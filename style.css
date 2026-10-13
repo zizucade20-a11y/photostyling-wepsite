@@ -142,3 +142,14 @@ nav a:hover, .text-link:hover { color: #8c6741; }
   color: rgba(255,255,255,.8);
 }
 
+ection-wrap {
+  padding-left: 10.5vw;
+  padding-right: 10.5vw;
+}
+.intro {
+  padding-top: 142px;
+  padding-bottom: 140px;
+}
+.intro > .eyebrow, .section-heading .eyebrow, .closing .eyebrow {
+  color: #8a6d4c;
+}
