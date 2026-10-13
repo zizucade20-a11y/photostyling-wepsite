@@ -88,3 +88,17 @@ nav a:hover, .text-link:hover { color: #8c6741; }
     linear-gradient(0deg, rgba(8, 12, 15, .42), transparent 35%);
 }
 
+.hero-content {
+  position: absolute;
+  left: 10.5vw;
+  top: 50%;
+  transform: translateY(-49%);
+  max-width: 600px;
+}
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: .63rem;
+  font-weight: 600;
+  letter-spacing: .18em;
+}
