@@ -344,3 +344,18 @@ ection-wrap {
     padding-top: 90px;
     padding-bottom: 90px;
   }
+  
+  .closing .button { margin-top: 2rem; }
+  .site-footer {
+    align-items: start;
+    flex-direction: column;
+    padding: 28px 7vw;
+    gap: .7rem;
+  }
+  .site-footer p { margin: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; }
+}
