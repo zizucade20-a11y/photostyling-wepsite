@@ -113,3 +113,15 @@ nav a:hover, .text-link:hover { color: #8c6741; }
   color: rgba(255,255,255,.82);
   font-size: .92rem;
 }
+
+.button {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.6rem;
+  padding: 0 1.1rem;
+  font-size: .72rem;
+  font-weight: 600;
+  transition: background .2s, color .2s;
+}
