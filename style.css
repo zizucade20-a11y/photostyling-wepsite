@@ -227,3 +227,18 @@ ection-wrap {
   padding-top: 13px;
   font-size: .65rem;
 }
+.photo figcaption span:first-child { color: #9a7a58; }
+.photo figcaption span:last-child { color: var(--muted); }
+
+.quote-band {
+  position: relative;
+  overflow: hidden;
+  min-height: 410px;
+  background: #e6e3dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px 20px;
+}
