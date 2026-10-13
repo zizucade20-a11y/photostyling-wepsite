@@ -125,3 +125,20 @@ nav a:hover, .text-link:hover { color: #8c6741; }
   font-weight: 600;
   transition: background .2s, color .2s;
 }
+.button-light { border: 1px solid rgba(255,255,255,.72); }
+.button-light:hover { background: white; color: var(--ink); }
+.button-dark { background: var(--ink); color: white; }
+.button-dark:hover { background: #8c6741; }
+.hero-caption {
+  position: absolute;
+  left: 5.5vw;
+  right: 5.5vw;
+  bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  font-size: .63rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.8);
+}
+
