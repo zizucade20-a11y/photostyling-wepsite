@@ -102,3 +102,14 @@ nav a:hover, .text-link:hover { color: #8c6741; }
   font-weight: 600;
   letter-spacing: .18em;
 }
+
+.hero h1 {
+  margin: 1.35rem 0 1rem;
+  font: 500 clamp(4rem, 8vw, 7.7rem)/.98 var(--serif);
+  letter-spacing: -.055em;
+}
+.hero-copy {
+  margin: 0 0 2.2rem;
+  color: rgba(255,255,255,.82);
+  font-size: .92rem;
+}
